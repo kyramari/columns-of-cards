@@ -10,12 +10,13 @@ html {
 .btn {
   padding: .4em .75em .3em;
   text-align: center;
-  font-size: 1.125rem;
+  font-size: 0.875rem;
   color: white;
   text-decoration: none;
   border-radius: 8px;
   background-color: #333;
-  margin: 8px;
+  margin-top: 310m;
+	margin-bottom: 10em;
   border: 3px solid #333;
 }
 
@@ -25,23 +26,48 @@ html {
   border-width: 3px;
 }
 
+body {
+	background-color: #f2f2f2;
+	padding: 1em;
+}
+
 .card {
 	float: left;
 	width: 25%;
+	border-left: 1px solid #333;
+	font-size: 0.875rem;
+	padding: 1em 2em 3em 1em;
+	max-height: 100em;
 }
 
 .card-1 {
-	background-color: #f2f2f2;
-}
-
-.card-2 {
 	background-color: #e2e2e2;
 }
 
-.card-3 {
+.card-2 {
 	background-color: #ccc;
 }
 
-.card-4 {
+.card-3 {
 	background-color: #aaa;
+}
+
+.card-4 {
+	background-color: #999;
+	border-right: 1px solid #333;
+}
+
+img {
+	max-width: 8em;
+	text-align: center;
+
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.words {
+	display: block;
 }
